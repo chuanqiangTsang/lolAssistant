@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,caption,tbody,tfoot,thead,th,input,textarea{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+body{
+	line-height:1;
+}
+/*ol,ul{
+	list-style:none;
+}*/
+blockquote,q{
+	quotes:none;
+}
+blockquote:before,blockquote:after,q:before,q:after{
+	content:'';
+	content:none;
+}
+:focus{
+	outline:0;
+}
+ins{
+	text-decoration:none;
+}
+del{
+	text-decoration:line-through;
+}
+*{ margin:0px; padding:0px;}
+/*body{font: 12px/1.4 "Microsoft JhengHei", "Microsoft YaHei", Arial, Helvetica, Verdana, sans-serif; margin:0px 0 20x; line-height:22px; color:#444444;}*/
+/*ul, li{list-style-type:none;}*/
+/*a{color:#333333;text-decoration:none;}
+a:hover{color:#e2261a;text-decoration:underline;}*/
+*{
+	webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after,
+:before{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary{
+	display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+header,
+footer{
+	ul,ol,li{
+		list-style: none;
+		list-style-type: none;
+	}
+}
+.main-left{
+	ul,ol,li{
+		list-style: none;
+		list-style-type: none;
+	}
+}
+img{border:0; display: block;}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.clearfix{zoom:1;}
+
+li{list-style: none;}
+a{text-decoration: none;}
