@@ -156,9 +156,9 @@
     },
 
     "userInfo":{
-
         "gameZone": "艾欧尼亚",
         "userFace": "../../../static/child.jpg",
+        "gameLv":"12",
         "gameId": "FateNight丶大禹",
         "userSex": "male",
         "gameState": "off",

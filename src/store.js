@@ -9,12 +9,13 @@ const state = {
     isShowSlideMenu: false,
     isShowAppFriends: false,
     isShowGameFriends: false,
+    isShowSkin: false,
+    bgColor: localStorage.lolSkinColor || '#2a2a2b',
     allData:{},
-    appFriends: [],//app好友
+    appFriends: [],//app好友tyjy
     gameFriends: [],//game好友
     teamLogo: [], //队标
     userInfo: {} //用户信息包括游戏记录
-
 }
 
 
@@ -31,6 +32,17 @@ const mutations = {
 
     showGameFriends(){
         state.isShowGameFriends = !state.isShowGameFriends;
+    },
+
+    //显示皮肤列表
+    showSkinItems(){
+        state.isShowSkin = !state.isShowSkin;
+    },
+
+    changeBgColor(state,color){
+        state.bgColor = color;
+        state.isShowSkin = false;
+        localStorage.setItem('lolSkinColor',color);
     },
 
     //程序还在开发中

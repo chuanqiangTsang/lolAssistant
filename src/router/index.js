@@ -11,6 +11,8 @@ import Find from '@/components/Find/find'
 import Mine from '@/components/Mine/mine'
 import NewsDetils  from '@/components/News/newDetails'
 import gameDetail from '@/components/Mine/gameDetail'
+import developLog from '@/components/developLog/developLog'
+
 export default new Router({
   mode:"history",
   routes: [
@@ -55,6 +57,12 @@ export default new Router({
       path: '/gameDetail/gameDe/:gameId',
       name: 'gameDetail',
       component: gameDetail
+    },
+
+    {
+      path: '/developLog',
+      name: 'developLog',
+      component: developLog
     },
 
     
